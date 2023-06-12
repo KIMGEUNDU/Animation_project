@@ -11,6 +11,7 @@
   }
 }
 
+/* 전체 영역 설정 */
 * {
   margin: 0;
   padding: 0;
@@ -40,12 +41,14 @@ img {
   font-size: 70px;
 }
 
+/* title 글씨 */
 span {
   transition: text-shadow, font-size 1s, 1s;
   text-shadow: 4px 4px rgb(243, 196, 196);
   font-size: 70px;
 }
 
+/* title hover event */
 span:hover {
   transition: text-shadow, font-size 2s, 1s;
   text-shadow: 14px 14px 10px rgb(254, 189, 189);
@@ -65,6 +68,7 @@ span:hover {
   flex-wrap: wrap;
 }
 
+/* album section */
 .album {
   position: relative;
   margin: 20px;
@@ -72,11 +76,13 @@ span:hover {
   width: 30%;
 }
 
+/* 앨범 커버 이미지 */
 .cover {
   position: absolute;
   z-index: 1;
 }
 
+/* LP 판 이미지 */
 .lp {
   transition-property: margin;
   transition-duration: 2s;
